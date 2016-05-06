@@ -5,16 +5,19 @@ ruby '2.3.0'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'sinatra'
-gem 'rspec-sinatra'
-gem 'capybara'
+gem 'sinatra-partial'
 gem 'rake'
+gem 'bcrypt'
 gem 'sinatra-flash'
 
 group :test do
-  gem 'database_cleaner'
-  gem 'rspec'
-  gem 'rubocop-rspec'
-  gem 'rubocop'
-  gem 'coveralls', require: false
   gem 'byebug'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'rspec'
 end
+
+
+
+
+
